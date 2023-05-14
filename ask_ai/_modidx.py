@@ -23,5 +23,6 @@ d = { 'settings': { 'branch': 'main',
                                'ask_ai.magics.ai_ask': ('magics.html#ai_ask', 'ask_ai/magics.py'),
                                'ask_ai.magics.ai_code': ('magics.html#ai_code', 'ask_ai/magics.py'),
                                'ask_ai.magics.ai_continue': ('magics.html#ai_continue', 'ask_ai/magics.py'),
+                               'ask_ai.magics.ai_settings': ('magics.html#ai_settings', 'ask_ai/magics.py'),
                                'ask_ai.magics.collect_code_history': ('magics.html#collect_code_history', 'ask_ai/magics.py'),
                                'ask_ai.magics.load_ipython_extension': ('magics.html#load_ipython_extension', 'ask_ai/magics.py')}}}
