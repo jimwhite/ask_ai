@@ -123,9 +123,9 @@ def ai_settings(line):
     global MODEL_ID
     global CONTEXT_MAX_WORDS
     parser = ArgumentParser(prog='ask_ai')
-    parser.add_argument('--model', dest='model', action='store')
-    parser.add_argument('--cmax', alias='max_context', dest='CONTEXT_MAX', type=int, action='store')
-    parser.add_argument('--key', dest='key', action='store')
+    parser.add_argument('-m', '--model', dest='model', action='store')
+    parser.add_argument('-c', '--cmax', '--max_context', dest='CONTEXT_MAX', type=int, action='store')
+    parser.add_argument('-k', '--key', dest='key', action='store')
     args = parser.parse_args(line.split())
     if args.model:
         MODEL_ID = args.model
