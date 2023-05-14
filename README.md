@@ -25,9 +25,12 @@ reply I can scan in a couple of seconds.
 2.  Set the environment variable `OPENAI_API_KEY` to your OpenAI API
     key.
 3.  Load the magics in your jupyter notebook: `%load_ext ask_ai.magics`
+4.  The default model is gpt-3.5-turbo with a max context of 2200 words.
+    For gpt-4 use: `%ai_settings --model=gpt-4`.
+    The default max context is 4400 words.
+    To also change that: `%ai_settings --model=gpt-4 --max_context=6000`.
 
 ## How to use
-
 Use `%%ai_ask` to start a new conversation, and `%%ai_continue` to
 continue an existing conversation.
 
